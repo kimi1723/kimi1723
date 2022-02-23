@@ -1,0 +1,31 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+  }
+  .attribution { font-size: 11px; text-align: center;  }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  #card h1{
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+  }
+  #card p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  #card{
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 15px;
+    width: 17%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  #card img{
+    width: 95%;
+    border-radius: 15px;
+  }
